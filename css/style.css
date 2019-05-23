@@ -1,0 +1,127 @@
+
+/****** general ******/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: padding-box;
+  -moz-box-sizing: padding-box;
+  box-sizing: padding-box
+}
+
+body { width: 100%; background-color:#f7f7f7; }
+
+a { text-decoration: none }
+
+ul, li {
+  list-style: none;
+  padding: 0
+}
+
+button, input[type=text] { outline: none }
+
+.clear { clear: both }
+
+hr {
+  border: 0;
+  width: 30px;
+  height: 4px;
+  background: #aad04f;
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 150px auto;
+  padding: 0 !important;
+  position: relative;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+
+/* */
+
+.emotion { margin: 150px auto }
+
+div[contenteditable=true] {
+  border: 1px dashed #AAA;
+  width: 290px;
+  padding: 5px;
+}
+
+pre {
+  background: #EEE;
+  padding: 5px;
+  width: 290px;
+}
+
+.emotion {
+  position: relative;
+  display: flex
+}
+
+.emotion-Icon {
+  position: relative;
+  right: 20px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.ShowImotion { display: flex !important; }
+
+.emotion-area {
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px #333;
+  bottom: 130%;
+  display: none;
+  right: 0;
+  width: 300px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 150px;
+}
+
+.top {
+  top: 130%;
+  bottom: auto
+}
+
+.emotion-area img {
+  margin: 4px;
+  cursor: pointer;
+}
+
+/****** end general ******/
+
+
+#canvas {
+  border: 1px solid red;
+  margin: auto
+}
+
+
+/**** start madia Query ****/
+
+@media only screen and (max-width : 1200px) {
+}
+
+    /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+    /* Small Devices, Tablets */
+ @media only screen and (max-width : 768px) {
+}
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+}
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 320px) {
+}
